@@ -3,7 +3,7 @@
 import os
 import sys
 
-print("save")
+print("saveTEST")
 
 def main():
     """Run administrative tasks."""
