@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  # postgres:
+  #   image: postgres
+  #   restart: always
+  #   environment:
+  #     - POSTGRES_USER=postgres
+  #     - POSTGRES_PASSWORD=testing
+  #   ports:
+  #     - 5432:5432
+  #   volumes: 
+  #     - ./db/postgres/:/var/lib/postgresql/data
+
+  db:
+    image: oracle-db-21c
+    restart: "unless-stopped"
+    ports:
+      - 1523:1521
+      - 5501:5500
+    volumes:
+      - .:/opt/oracle/oradata
+    environment:
+      - "ORACLE_PWD=12345678"
+      - "ORACLE_CHARACTERSET=TH8TISASCII"
+  backend:
+    build: .
+    # command: python src/manage.py migrate api && python src/manage.py runserver 0.0.0.0:8000
+    stdin_open: true
+    tty: true
+    volumes: 
+      - .:/usr/projects/src
+    ports:
+      - '8000:8000'
+    # environment:
+    #   - POSTGRES_NAME=postgres
+    #   - POSTGRES_USER=postgres
+    #   - POSTGRES_PASSWORD=testing
+    depends_on:
+      - db
