@@ -1,0 +1,44 @@
+#bg {
+    background: linear-gradient(to bottom, #ABDDA3, #ffffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+
+.headertext{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+  }
+  .headertext-mobile{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+#border {
+    border-radius: 15px;
+  }
+#bg-login{
+    width: 100%;
+    height:100%;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    background-image: url(../img/bg_login.png);
+    background-size: cover;
+    /* transform: scale(1.0); */
+    
+  }
+  #bg-login-mobile{
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    background-image: url(../img/bg_login.png);
+    background-size: cover;
+   /* transform: scale(1.1); */
+    
+  }
+.nav-header{background-color: #dce2e700;}
+

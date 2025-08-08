@@ -1,0 +1,9 @@
+{
+    "localhost": "http://localhost:8090",
+    "ipServer": "http://conic.myds.me:8090",
+    "pathImg": "192.168.100.211",
+    "pathImgPort": "6041",
+    "imgServer": "http://conic.myds.me:8090",
+    "ipLiveviewInternal":"10.151.1.87:83",
+    "ipLiveviewInternet":"192.168.100.211:83"
+}

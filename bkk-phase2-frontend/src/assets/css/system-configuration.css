@@ -1,0 +1,28 @@
+.addbutton{
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+ }
+
+ .headerback{
+  font-weight: 600;
+   font-size: 24px;
+   color: red;
+ }
+ #table-vehicle table thead tr th:nth-child(1),
+ #table-vehicle table thead tr th:nth-child(2),
+ #table-vehicle table thead tr th:nth-child(3),
+ #table-vehicle table thead tr th:nth-child(4),
+ #table-vehicle table thead tr th:nth-child(5),
+ #table-vehicle table thead tr th:nth-child(6),
+ #table-vehicle table thead tr th:nth-child(7),
+ #table-vehicle table thead tr th:nth-child(8),
+ #table-vehicle table thead tr th:nth-child(9) {
+   background-color: #02754B;
+   color: white; 
+   font-size: 18px;
+ }
+ 
+ #table-vehicle table tbody tr:nth-child(odd) {
+   background-color: #ddf1fc;
+ }

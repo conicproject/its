@@ -1,0 +1,312 @@
+<template>
+  <v-app>
+    <v-overlay :value="onProgress">
+      <v-progress-circular indeterminate size="100" width="7"></v-progress-circular>
+    </v-overlay>
+
+    <v-layout>
+      <v-app-bar color="white" class="hero-banner">
+        <v-img class="bg-white" src="@/assets/img/login/banner.png"></v-img>
+      </v-app-bar>
+    </v-layout>
+
+    <v-layout id="bg-login" row wrap align-center justify-center v-if="$vuetify.breakpoint.width > 1100">
+      <v-flex xs12 lg7 class="ma-5" justify-center>
+        <v-card class="mx-auto">
+          <v-card-title class="justify-center logintextV2"><span class="headlogin">ระบบกล้องโทรทัศน์วงจรปิด(CCTV)
+              เสริมสร้างความปลอดภัย<br />
+              ให้กับประชาชนบริเวณสัญญาณไฟจราจรทางคนเดินข้ามชนิดปุ่มกด<br />
+              CCTV for the pedestrain crossing traffic light system (CPTS)
+            </span>
+          </v-card-title>
+        </v-card>
+        <br /><br />
+        <v-card class="mx-auto pa-8" max-width="500">
+          <form ref="form" @submit.prevent="handleLogin()">
+            <v-card-text>
+              <v-text-field v-model="username" filled rounded placeholder="Username" name="username"></v-text-field>
+              <v-text-field @click:append="showPassword = !showPassword" :type="showPassword ? 'text' : 'password'"
+                :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'" v-model="password" filled rounded
+                placeholder="Password" name="password"></v-text-field>
+            </v-card-text>
+            <v-card-actions class="justify-center pt-0">
+              <v-btn id="btn-signin" large type="submit"><span class="btn-text pa-7">Sign In</span></v-btn>
+            </v-card-actions>
+          </form>
+        </v-card>
+      </v-flex>
+    </v-layout>
+
+    <v-layout id="bg-login-mobile" justify-center align-center
+      v-else-if="$vuetify.breakpoint.width < 1100 && $vuetify.breakpoint.width > 627">
+      <v-flex class="ma-5 justify-center">
+        <v-layout>
+          <v-flex>
+            <v-card class="formlogin-mobile">
+
+              <v-card-title class="justify-center logintext-mobile-s my-2"><span class="headlogin-mobile-s">BMA
+                  ACCOUNT</span>
+              </v-card-title>
+              <v-card-subtitle>
+                <v-card color="#F4F3F3" theme="dark">
+                  <v-card-subtitle style="text-align:center; color: mediumblue;" class="excerp-login">
+                    <span>ระบบกล้องโทรทัศน์วงจรปิด(CCTV) เสริมสร้างความปลอดภัย
+                      ให้กับประชาชน</span>
+                    <br />
+                    <span>บริเวณสัญญาณไฟจราจรทางคนเดินข้ามชนิดปุ่มกด </span>
+                    <br />
+                    <span> CCTV for the pedestrain crossing traffic light system (CPTS)
+                    </span>
+                  </v-card-subtitle>
+                </v-card>
+
+              </v-card-subtitle>
+              <form ref="form" @submit.prevent="handleLogin()">
+                <v-card-text>
+                  <v-text-field v-model="username" placeholder="Username" name="username"></v-text-field>
+                  <v-text-field @click:append="showPassword = !showPassword" :type="showPassword ? 'text' : 'password'"
+                    :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'" v-model="password" placeholder="Password"
+                    name="password"></v-text-field>
+                </v-card-text>
+                <v-card-actions class="justify-center pt-0">
+                  <v-btn id="btn-signin" large type="submit"><span class="btn-text pa-7">Sign In</span></v-btn>
+                </v-card-actions>
+              </form>
+            </v-card>
+          </v-flex>
+        </v-layout>
+
+
+
+
+
+      </v-flex>
+    </v-layout>
+
+    <v-layout id="bg-login-mobile" justify-center align-center v-else>
+      <v-flex class="ma-5 ">
+
+        <v-card max-width="600" class="pb-4">
+          <v-card-title class="justify-center logintext-mobile-s my-2"><span class="headlogin-mobile-s">BMA ACCOUNT</span>
+          </v-card-title>
+          <v-card-subtitle>
+            <v-card color="#F4F3F3" theme="dark">
+              <v-card-subtitle style="text-align:center; color: mediumblue;" class="excerp-login-s">
+                <span>ระบบกล้องโทรทัศน์วงจรปิด(CCTV) เสริมสร้างความปลอดภัย
+                  ให้กับประชาชน</span>
+                <br />
+                <span>บริเวณสัญญาณไฟจราจรทางคนเดินข้ามชนิดปุ่มกด </span>
+                <br />
+                <span> CCTV for the pedestrain crossing traffic light system (CPTS)
+                </span>
+              </v-card-subtitle>
+            </v-card>
+
+          </v-card-subtitle>
+          <form ref="form" @submit.prevent="handleLogin()">
+            <v-card-text>
+              <v-text-field v-model="username" placeholder="Username" name="username"></v-text-field>
+              <v-text-field @click:append="showPassword = !showPassword" :type="showPassword ? 'text' : 'password'"
+                :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'" v-model="password" placeholder="Password"
+                name="password"></v-text-field>
+            </v-card-text>
+            <v-card-actions class="justify-center pt-0">
+              <v-btn id="btn-signin" large type="submit"><span class="btn-text pa-7">Sign In</span></v-btn>
+            </v-card-actions>
+          </form>
+        </v-card>
+      </v-flex>
+    </v-layout>
+    <!-- </v-parallax> -->
+    <!-- </div> -->
+  </v-app>
+</template>
+<script>
+const baseUrl = require('../../baseUrl.json')
+import Swal from "sweetalert2/dist/sweetalert2.js";
+const Toast = Swal.mixin({
+  toast: true,
+  position: "top-end",
+  showConfirmButton: false,
+  timer: 3000,
+});
+export default {
+  data() {
+    return {
+      onProgress: false,
+      showPassword: false,
+      username: "",
+      password: "",
+    };
+  },
+  methods: {
+    handleLogin() {
+      if (this.username == "" || this.password == "") {
+        Toast.fire({
+          icon: 'error',
+          title: 'กรุณากรอกข้อมูลให้ครบถ้วน',
+        })
+        return
+      }
+
+      var payload = {
+        name: this.username,
+        password: this.password,
+      }
+      let url = baseUrl.ipServer + "/login";
+      this.onProgress = true
+      this.axios.post(url, payload, { headers: { session: "" } })
+        .then((response) => {
+          console.log(response);
+          localStorage.setItem("session", response.data.data.session);
+          localStorage.setItem("count_notification", response.data.count_notification);
+          this.$store.dispatch("setMenubar").then(res => {
+            if (res.status === 'success')
+              this.$router.push("/dashboard");
+          })
+          this.onProgress = false;
+        }).catch((error) => {
+          console.log(error);
+          this.onProgress = false;
+          Toast.fire({
+            icon: 'error',
+            title: 'ไม่สามารถเข้าสู่ระบบได้ กรุณากรอกข้อมูลให้ถูกต้อง',
+          })
+        });
+    }
+  }
+};
+</script>
+<style>
+@import "../assets/css/background.css";
+
+/* @import '../sass/variables.scss'; */
+.formlogin {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.formlogin-mobile {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.formtext-mobile {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.btn-text {
+  font-weight: bold;
+}
+
+#btn-signin {
+  background-color: #02754B;
+  color: white;
+  border-radius: 15px;
+}
+
+#btn-signin>span {
+  text-transform: capitalize;
+}
+
+.headlogin-mobile {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.headlogin-mobile-s {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.headlogin {
+  font-weight: 700;
+}
+
+.logintext {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 51px;
+  align-items: center;
+  text-align: center;
+  color: #2463c1;
+  font-weight: bold;
+}
+
+.logintextV2 {
+  font-weight: 700;
+  /* font-size: 30px; */
+  line-height: 51px;
+  align-items: center;
+  text-align: center;
+  color: #2463c1;
+  font-weight: bold;
+}
+
+.logintext-mobile {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 51px;
+  align-items: center;
+  text-align: center;
+  color: #2463c1;
+  font-weight: bold;
+}
+
+.logintext-mobile-s {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 51px;
+  align-items: center;
+  text-align: center;
+  color: #2463c1;
+  font-weight: bold;
+}
+
+.headtext {
+  font-weight: 400;
+  font-size: 34.6111px;
+  line-height: 128%;
+  color: #1b8954;
+  text-shadow: 1.23611px 1.23611px 2.47222px rgba(0, 0, 0, 0.25);
+}
+
+.headtext-md {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128%;
+  color: #1b8954;
+  text-shadow: 1.23611px 1.23611px 2.47222px rgba(0, 0, 0, 0.25);
+}
+
+.headtext-mobile {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 128%;
+  color: #1b8954;
+  text-shadow: 1.23611px 1.23611px 2.47222px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo-mobile {
+  width: 100%;
+}
+
+.hero-banner,
+.hero-banner .v-toolbar__content,
+.hero-banner .v-toolbar__image .v-image {
+  height: 100% !important;
+}
+
+.excerp-login {
+  font-size: 0.9rem !important;
+}
+
+.excerp-login-s {
+  font-size: 0.5rem !important;
+}
+</style>

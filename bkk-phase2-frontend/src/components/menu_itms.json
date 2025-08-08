@@ -1,0 +1,100 @@
+[
+    {
+        "child_obj": [],
+        "id": 1,
+        "name": "All Overview",
+        "path": "/dashboard"
+    },
+    {
+        "id": 2,
+        "name": "Traffic Enforcement",
+        "path": "/enforcement/dashboard",
+        "child_obj": [
+            {
+                "id": "1",
+                "name": "Dashboard",
+                "is_active": true,
+                "path": "/enforcement/dashboard",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "2",
+                "name": "Function",
+                "is_active": true,
+                "path": "/enforcement/function",
+                "is_checkpoint": true,
+                "child_obj": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Traffic Data Collection",
+        "path": "/collection/dashboard",
+        "child_obj": [
+            {
+                "id": "1",
+                "name": "Dashboard",
+                "is_active": true,
+                "path": "/collection/dashboard",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "2",
+                "name": "Function",
+                "is_active": true,
+                "path": "/collection/function",
+                "is_checkpoint": true,
+                "child_obj": []
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Traffic Operation Management",
+        "path": "/management/dashboard",
+        "child_obj": [
+            {
+                "id": "1",
+                "name": "Dashboard",
+                "is_active": true,
+                "path": "/management/dashboard",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "2",
+                "name": "Function",
+                "is_active": true,
+                "path": "/management/function",
+                "is_checkpoint": true,
+                "child_obj": []
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Incident & Accident",
+        "path": "/incident-accident/dashboard",
+        "child_obj": [
+            {
+                "id": "1",
+                "name": "Dashboard",
+                "is_active": true,
+                "path": "/incident-accident/dashboard",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "2",
+                "name": "Function",
+                "is_active": true,
+                "path": "/incident-accident/function",
+                "is_checkpoint": true,
+                "child_obj": []
+            }
+        ]
+    }
+]

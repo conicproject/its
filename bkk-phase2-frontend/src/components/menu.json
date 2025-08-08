@@ -1,0 +1,1150 @@
+[
+    {
+        "child_obj": [],
+        "id": 1,
+        "name": "หน้าหลัก",
+        "path": "/dashboard"
+    },
+    {
+        "id": 2,
+        "name": "จุดติดตั้ง",
+        "path": "/installing/1",
+        "child_obj": [
+            {
+                "id": "1",
+                "name": "ถนนอ่อนนุช (ซอยสุขุมวิท 77) บริเวณปากซอยอ่อนนุช 3\n",
+                "short_name": "ถ.อ่อนนุช สุขุมวิท77\n",
+                "is_active": true,
+                "path": "/installing/1",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "2",
+                "name": "ถนนอ่อนนุช บริเวณแยกอ่อนนุช\n",
+                "short_name": "ถ.อ่อนนุช แยกอ่อนนุช\n",
+                "is_active": true,
+                "path": "/installing/2",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "3",
+                "name": "ถนนอ่อนนุช (ซอยสุขุมวิท 48) บริเวณหน้าโรงแรมไอบิส\n",
+                "short_name": "ถ.อ่อนนุช สุขุมวิท48\n",
+                "is_active": true,
+                "path": "/installing/3",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "4",
+                "name": "แยกราชประสงค์ เซ็นทรัลเวิลด์\n",
+                "short_name": "แยกราชประสงค์ CTW\n",
+                "is_active": true,
+                "path": "/installing/4",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "5",
+                "name": "แยกราชประสงค์ ราชดำริ\n",
+                "short_name": "แยกราชประสงค์ ราชดำริ\n",
+                "is_active": true,
+                "path": "/installing/5",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "6",
+                "name": "แยกราชประสงค์ หน้าอัมรินทร์\n",
+                "short_name": "แยกราชประสงค์ อัมรินทร์\n",
+                "is_active": true,
+                "path": "/installing/6",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "7",
+                "name": "แยกราชประสงค์ บริเวณหน้าสำนักงานตำรวจแห่งชาติ\n",
+                "short_name": "แยกราชประสงค์ สตช.\n",
+                "is_active": true,
+                "path": "/installing/7",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "8",
+                "name": "ถนนสาทร ตัด ถนนเจริญกรุง ใต้สะพานสมเด็จพระเจ้าตากสิน\n",
+                "short_name": "ถ.สาทร ตัด ถ.เจริญกรุง\n",
+                "is_active": true,
+                "path": "/installing/8",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "9",
+                "name": "ถนนพระรามที่ 4 ตัดถนนสุขุมวิท (ปากซอยสุขุมวิท พลัส 1)\n",
+                "short_name": "ถ.สุขุมวิท ซ.พลัส 1\n",
+                "is_active": true,
+                "path": "/installing/9",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "10",
+                "name": "ถนนพระรามที่ 4 บริเวณปากซอยโรงพยาบาล 2\n",
+                "short_name": "ถ.พระรามที่4 ซ.รพ.2",
+                "is_active": true,
+                "path": "/installing/10",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "11",
+                "name": "แยกถนนพระรามที่ 3 ตัดถนนวงแหวนอุตสาหกรรม ก่อนขึ้นสะพานวงแหวน\n",
+                "short_name": "ถ.วงแหวนอุตสาหกรรม\n",
+                "is_active": true,
+                "path": "/installing/11",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "12",
+                "name": "แยกถนนพระรามที่ 3 หัวปลาช่องนนทรี\n",
+                "short_name": "ถ.พระรามที่3-หัวปลาช่องนนทรี\n",
+                "is_active": true,
+                "path": "/installing/12",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "13",
+                "name": "ถนนพระรามที่ 3 (บริเวณปากซอยพระรามที่ 3 ซอย 50)\n",
+                "short_name": "ถ.พระรามที่3 ซ. 50",
+                "is_active": true,
+                "path": "/installing/13",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "14",
+                "name": "ห้าแยกลาดพร้าว (ถนนวิภาวดีรังสิต  เซ็นทารา) ช่องทางหลัก+ช่องทางคู่ขนาน\n",
+                "short_name": "แยกลาดพร้าว(เซ็นทารา) ",
+                "is_active": true,
+                "path": "/installing/14",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "15",
+                "name": "ห้าแยกลาดพร้าว บริเวณหน้า Lotus ลาดพร้าว ถนนพหลโยธิน\n",
+                "short_name": "แยกลาดพร้าว ถ.พหลโยธิน\n",
+                "is_active": true,
+                "path": "/installing/15",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "16",
+                "name": "ห้าแยกลาดพร้าว บริเวณตรงข้ามซอยลาดพร้าว 1 ถนนลาดพร้าว\n",
+                "short_name": "แยกลาดพร้าว ซ.ลาดพร้าว 1 \n",
+                "is_active": true,
+                "path": "/installing/16",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "17",
+                "name": "ห้าแยกลาดพร้าว (ถนนพหลโยธินฝั่งจตุจักร)\n",
+                "short_name": "แยกลาดพร้าว ฝั่งจตุจักร\n",
+                "is_active": true,
+                "path": "/installing/17",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "18",
+                "name": "แยกพระราม 9 - ประดิษฐ์มนูธรรม (หน้าวัดพระราม 9 กาญจนาภิเษก) ช่องทางหลัก+ช่องทางคู่ขนาน ขาเข้า\n",
+                "short_name": "แยกพระราม 9 (วัดพระราม9) ขาเข้า\n",
+                "is_active": true,
+                "path": "/installing/18",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "19",
+                "name": "แยกพระราม 9 - ประดิษฐ์มนูธรรม (หน้าวัดพระราม 9 กาญจนาภิเษก) ช่องทางหลัก+ช่องทางคู่ขนาน ขาออก\n",
+                "short_name": "แยกพระราม 9 (วัดพระราม9) ขาออก\n",
+                "is_active": true,
+                "path": "/installing/19",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "20",
+                "name": "ถนนสุขสวัสดิ์ บริเวณหน้าวัดสารอด\n",
+                "short_name": "ถ.สุขสวัสดิ์ วัดสารอด\n",
+                "is_active": false,
+                "path": "/installing/20",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "21",
+                "name": "ถนนสุขสวัสดิ์ (บริเวณปากซอยสุขสวัสดิ์ 8)\n",
+                "short_name": "ถ.สุขสวัสดิ์ ซ. 8",
+                "is_active": false,
+                "path": "/installing/21",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "22",
+                "name": "ถนนพระรามที่ 2 ซอย 3 ช่องทางหลัก+ช่องทางคู่ขนาน ขาเข้า\n",
+                "short_name": "ถ.พระรามที่2 ซ.3 ขาเข้า\n",
+                "is_active": false,
+                "path": "/installing/22",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "23",
+                "name": "ถนนพระรามที่ 2 ซอย 3 ช่องทางหลัก+ช่องทางคู่ขนาน ขาออก\n",
+                "short_name": "ถ.พระรามที่2 ซ.3 ขาออก\n",
+                "is_active": false,
+                "path": "/installing/23",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "24",
+                "name": "ถนนประเสริฐมนูกิจ (โรงเรียนสตรีวิทยา 2)\n",
+                "short_name": "ถ.ประเสริฐมนูกิจ รร.สตรีวิทยา2\n",
+                "is_active": true,
+                "path": "/installing/24",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "25",
+                "name": "หน้าวัดดอนเมือง (ดอนเมือง อัมรี ถนนวิภาวดีรังสิต)\n",
+                "short_name": "หน้าวัดดอนเมือง ",
+                "is_active": false,
+                "path": "/installing/25",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "26",
+                "name": "เชิงสะพานสมเด็จพระปิ่นเกล้า ฝั่งธนบุรี ขาเข้า\n",
+                "short_name": "เชิงสะพานพระปิ่นเกล้า ขาเข้า\n",
+                "is_active": true,
+                "path": "/installing/26",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "27",
+                "name": "เชิงสะพานสมเด็จพระปิ่นเกล้า ฝั่งธนบุรี ขาออก",
+                "short_name": "เชิงสะพานพระปิ่นเกล้า ขาออก\n",
+                "is_active": true,
+                "path": "/installing/27",
+                "is_checkpoint": true,
+                "child_obj": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "รายงานข้อมูลจราจร",
+        "path": "/traffic-detail",
+        "child_obj": []
+    },
+    {
+        "id": 4,
+        "name": "ข้อมูลยานพาหนะที่กำหนด",
+        "path": "/vehicle/add",
+        "child_obj": [
+            {
+                "name": "เพิ่มข้อมูลยานพาหนะที่กำหนด",
+                "path": "/vehicle/add",
+                "child_obj": [],
+                "is_checkpoint": false
+            },
+            {
+                "name": "ข้อมูลยานพาหนะที่กำหนด",
+                "path": "/vehicle/list-blacklist",
+                "child_obj": [],
+                "is_checkpoint": false
+            },
+            {
+                "name": "ค้นหาข้อมูลยานพาหนะที่กำหนด",
+                "path": "/vehicle/search-blacklist",
+                "child_obj": [],
+                "is_checkpoint": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "ข้อมูลยานพาหนะ",
+        "path": "/vehicle/search",
+        "child_obj": [
+            {
+                "name": "ค้นหายานพาหนะ",
+                "path": "/vehicle/search",
+                "child_obj": [],
+                "is_checkpoint": false
+            },
+            {
+                "name": "ค้นหายานพาหนะที่ฝ่าฝืนสัญญาณไฟจราจรทางข้ามชนิดปุ่มกด",
+                "path": "/vehicle/search-violation",
+                "child_obj": [],
+                "is_checkpoint": false
+            },
+            {
+                "name": "ค้นหารถบรรทุกในช่วงเวลาที่ห้ามเดินรถ",
+                "path": "/vehicle/list-truck",
+                "child_obj": [],
+                "is_checkpoint": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "ข้อมูลจุดต้นทาง/ปลายทางของยานพาหนะ",
+        "path": "/origin-destination",
+        "child_obj": []
+    },
+    {
+        "id": 7,
+        "name": "ดูสภาพการจราจร",
+        "path": "/traffic/present",
+        "child_obj": [
+            {
+                "name": "ดูสภาพการจราจรปัจจุบัน",
+                "path": "/traffic/present",
+                "child_obj": [
+                    {
+                        "id": "1",
+                        "name": "ถนนอ่อนนุช (ซอยสุขุมวิท 77) บริเวณปากซอยอ่อนนุช 3\n",
+                        "short_name": "ถ.อ่อนนุช สุขุมวิท77\n",
+                        "is_active": true,
+                        "path": "/traffic/present/1",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "2",
+                        "name": "ถนนอ่อนนุช บริเวณแยกอ่อนนุช\n",
+                        "short_name": "ถ.อ่อนนุช แยกอ่อนนุช\n",
+                        "is_active": true,
+                        "path": "/traffic/present/2",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "3",
+                        "name": "ถนนอ่อนนุช (ซอยสุขุมวิท 48) บริเวณหน้าโรงแรมไอบิส\n",
+                        "short_name": "ถ.อ่อนนุช สุขุมวิท48\n",
+                        "is_active": true,
+                        "path": "/traffic/present/3",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "4",
+                        "name": "แยกราชประสงค์ เซ็นทรัลเวิลด์\n",
+                        "short_name": "แยกราชประสงค์ CTW\n",
+                        "is_active": true,
+                        "path": "/traffic/present/4",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "5",
+                        "name": "แยกราชประสงค์ ราชดำริ\n",
+                        "short_name": "แยกราชประสงค์ ราชดำริ\n",
+                        "is_active": true,
+                        "path": "/traffic/present/5",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "6",
+                        "name": "แยกราชประสงค์ หน้าอัมรินทร์\n",
+                        "short_name": "แยกราชประสงค์ อัมรินทร์\n",
+                        "is_active": true,
+                        "path": "/traffic/present/6",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "7",
+                        "name": "แยกราชประสงค์ บริเวณหน้าสำนักงานตำรวจแห่งชาติ\n",
+                        "short_name": "แยกราชประสงค์ สตช.\n",
+                        "is_active": true,
+                        "path": "/traffic/present/7",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "8",
+                        "name": "ถนนสาทร ตัด ถนนเจริญกรุง ใต้สะพานสมเด็จพระเจ้าตากสิน\n",
+                        "short_name": "ถ.สาทร ตัด ถ.เจริญกรุง\n",
+                        "is_active": true,
+                        "path": "/traffic/present/8",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "9",
+                        "name": "ถนนพระรามที่ 4 ตัดถนนสุขุมวิท (ปากซอยสุขุมวิท พลัส 1)\n",
+                        "short_name": "ถ.สุขุมวิท ซ.พลัส 1\n",
+                        "is_active": true,
+                        "path": "/traffic/present/9",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "10",
+                        "name": "ถนนพระรามที่ 4 บริเวณปากซอยโรงพยาบาล 2\n",
+                        "short_name": "ถ.พระรามที่4 ซ.รพ.2",
+                        "is_active": true,
+                        "path": "/traffic/present/10",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "11",
+                        "name": "แยกถนนพระรามที่ 3 ตัดถนนวงแหวนอุตสาหกรรม ก่อนขึ้นสะพานวงแหวน\n",
+                        "short_name": "ถ.วงแหวนอุตสาหกรรม\n",
+                        "is_active": true,
+                        "path": "/traffic/present/11",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "12",
+                        "name": "แยกถนนพระรามที่ 3 หัวปลาช่องนนทรี\n",
+                        "short_name": "ถ.พระรามที่3-หัวปลาช่องนนทรี\n",
+                        "is_active": true,
+                        "path": "/traffic/present/12",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "13",
+                        "name": "ถนนพระรามที่ 3 (บริเวณปากซอยพระรามที่ 3 ซอย 50)\n",
+                        "short_name": "ถ.พระรามที่3 ซ. 50",
+                        "is_active": true,
+                        "path": "/traffic/present/13",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "14",
+                        "name": "ห้าแยกลาดพร้าว (ถนนวิภาวดีรังสิต  เซ็นทารา) ช่องทางหลัก+ช่องทางคู่ขนาน\n",
+                        "short_name": "แยกลาดพร้าว(เซ็นทารา) ",
+                        "is_active": true,
+                        "path": "/traffic/present/14",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "15",
+                        "name": "ห้าแยกลาดพร้าว บริเวณหน้า Lotus ลาดพร้าว ถนนพหลโยธิน\n",
+                        "short_name": "แยกลาดพร้าว ถ.พหลโยธิน\n",
+                        "is_active": true,
+                        "path": "/traffic/present/15",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "16",
+                        "name": "ห้าแยกลาดพร้าว บริเวณตรงข้ามซอยลาดพร้าว 1 ถนนลาดพร้าว\n",
+                        "short_name": "แยกลาดพร้าว ซ.ลาดพร้าว 1 \n",
+                        "is_active": true,
+                        "path": "/traffic/present/16",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "17",
+                        "name": "ห้าแยกลาดพร้าว (ถนนพหลโยธินฝั่งจตุจักร)\n",
+                        "short_name": "แยกลาดพร้าว ฝั่งจตุจักร\n",
+                        "is_active": true,
+                        "path": "/traffic/present/17",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "18",
+                        "name": "แยกพระราม 9 - ประดิษฐ์มนูธรรม (หน้าวัดพระราม 9 กาญจนาภิเษก) ช่องทางหลัก+ช่องทางคู่ขนาน ขาเข้า\n",
+                        "short_name": "แยกพระราม 9 (วัดพระราม9) ขาเข้า\n",
+                        "is_active": true,
+                        "path": "/traffic/present/18",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "19",
+                        "name": "แยกพระราม 9 - ประดิษฐ์มนูธรรม (หน้าวัดพระราม 9 กาญจนาภิเษก) ช่องทางหลัก+ช่องทางคู่ขนาน ขาออก\n",
+                        "short_name": "แยกพระราม 9 (วัดพระราม9) ขาออก\n",
+                        "is_active": true,
+                        "path": "/traffic/present/19",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "20",
+                        "name": "ถนนสุขสวัสดิ์ บริเวณหน้าวัดสารอด\n",
+                        "short_name": "ถ.สุขสวัสดิ์ วัดสารอด\n",
+                        "is_active": false,
+                        "path": "/traffic/present/20",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "21",
+                        "name": "ถนนสุขสวัสดิ์ (บริเวณปากซอยสุขสวัสดิ์ 8)\n",
+                        "short_name": "ถ.สุขสวัสดิ์ ซ. 8",
+                        "is_active": false,
+                        "path": "/traffic/present/21",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "22",
+                        "name": "ถนนพระรามที่ 2 ซอย 3 ช่องทางหลัก+ช่องทางคู่ขนาน ขาเข้า\n",
+                        "short_name": "ถ.พระรามที่2 ซ.3 ขาเข้า\n",
+                        "is_active": false,
+                        "path": "/traffic/present/22",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "23",
+                        "name": "ถนนพระรามที่ 2 ซอย 3 ช่องทางหลัก+ช่องทางคู่ขนาน ขาออก\n",
+                        "short_name": "ถ.พระรามที่2 ซ.3 ขาออก\n",
+                        "is_active": false,
+                        "path": "/traffic/present/23",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "24",
+                        "name": "ถนนประเสริฐมนูกิจ (โรงเรียนสตรีวิทยา 2)\n",
+                        "short_name": "ถ.ประเสริฐมนูกิจ รร.สตรีวิทยา2\n",
+                        "is_active": true,
+                        "path": "/traffic/present/24",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "25",
+                        "name": "หน้าวัดดอนเมือง (ดอนเมือง อัมรี ถนนวิภาวดีรังสิต)\n",
+                        "short_name": "หน้าวัดดอนเมือง ",
+                        "is_active": false,
+                        "path": "/traffic/present/25",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "26",
+                        "name": "เชิงสะพานสมเด็จพระปิ่นเกล้า ฝั่งธนบุรี ขาเข้า\n",
+                        "short_name": "เชิงสะพานพระปิ่นเกล้า ขาเข้า\n",
+                        "is_active": true,
+                        "path": "/traffic/present/26",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "27",
+                        "name": "เชิงสะพานสมเด็จพระปิ่นเกล้า ฝั่งธนบุรี ขาออก",
+                        "short_name": "เชิงสะพานพระปิ่นเกล้า ขาออก\n",
+                        "is_active": true,
+                        "path": "/traffic/present/27",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    }
+                ],
+                "is_checkpoint": false
+            },
+            {
+                "name": "ดูสภาพการจราจรย้อนหลัง",
+                "path": "/traffic/belated",
+                "child_obj": [
+                    {
+                        "id": "1",
+                        "name": "ถนนอ่อนนุช (ซอยสุขุมวิท 77) บริเวณปากซอยอ่อนนุช 3\n",
+                        "short_name": "ถ.อ่อนนุช สุขุมวิท77\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/1",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "2",
+                        "name": "ถนนอ่อนนุช บริเวณแยกอ่อนนุช\n",
+                        "short_name": "ถ.อ่อนนุช แยกอ่อนนุช\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/2",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "3",
+                        "name": "ถนนอ่อนนุช (ซอยสุขุมวิท 48) บริเวณหน้าโรงแรมไอบิส\n",
+                        "short_name": "ถ.อ่อนนุช สุขุมวิท48\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/3",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "4",
+                        "name": "แยกราชประสงค์ เซ็นทรัลเวิลด์\n",
+                        "short_name": "แยกราชประสงค์ CTW\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/4",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "5",
+                        "name": "แยกราชประสงค์ ราชดำริ\n",
+                        "short_name": "แยกราชประสงค์ ราชดำริ\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/5",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "6",
+                        "name": "แยกราชประสงค์ หน้าอัมรินทร์\n",
+                        "short_name": "แยกราชประสงค์ อัมรินทร์\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/6",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "7",
+                        "name": "แยกราชประสงค์ บริเวณหน้าสำนักงานตำรวจแห่งชาติ\n",
+                        "short_name": "แยกราชประสงค์ สตช.\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/7",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "8",
+                        "name": "ถนนสาทร ตัด ถนนเจริญกรุง ใต้สะพานสมเด็จพระเจ้าตากสิน\n",
+                        "short_name": "ถ.สาทร ตัด ถ.เจริญกรุง\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/8",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "9",
+                        "name": "ถนนพระรามที่ 4 ตัดถนนสุขุมวิท (ปากซอยสุขุมวิท พลัส 1)\n",
+                        "short_name": "ถ.สุขุมวิท ซ.พลัส 1\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/9",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "10",
+                        "name": "ถนนพระรามที่ 4 บริเวณปากซอยโรงพยาบาล 2\n",
+                        "short_name": "ถ.พระรามที่4 ซ.รพ.2",
+                        "is_active": true,
+                        "path": "/traffic/belated/10",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "11",
+                        "name": "แยกถนนพระรามที่ 3 ตัดถนนวงแหวนอุตสาหกรรม ก่อนขึ้นสะพานวงแหวน\n",
+                        "short_name": "ถ.วงแหวนอุตสาหกรรม\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/11",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "12",
+                        "name": "แยกถนนพระรามที่ 3 หัวปลาช่องนนทรี\n",
+                        "short_name": "ถ.พระรามที่3-หัวปลาช่องนนทรี\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/12",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "13",
+                        "name": "ถนนพระรามที่ 3 (บริเวณปากซอยพระรามที่ 3 ซอย 50)\n",
+                        "short_name": "ถ.พระรามที่3 ซ. 50",
+                        "is_active": true,
+                        "path": "/traffic/belated/13",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "14",
+                        "name": "ห้าแยกลาดพร้าว (ถนนวิภาวดีรังสิต  เซ็นทารา) ช่องทางหลัก+ช่องทางคู่ขนาน\n",
+                        "short_name": "แยกลาดพร้าว(เซ็นทารา) ",
+                        "is_active": true,
+                        "path": "/traffic/belated/14",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "15",
+                        "name": "ห้าแยกลาดพร้าว บริเวณหน้า Lotus ลาดพร้าว ถนนพหลโยธิน\n",
+                        "short_name": "แยกลาดพร้าว ถ.พหลโยธิน\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/15",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "16",
+                        "name": "ห้าแยกลาดพร้าว บริเวณตรงข้ามซอยลาดพร้าว 1 ถนนลาดพร้าว\n",
+                        "short_name": "แยกลาดพร้าว ซ.ลาดพร้าว 1 \n",
+                        "is_active": true,
+                        "path": "/traffic/belated/16",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "17",
+                        "name": "ห้าแยกลาดพร้าว (ถนนพหลโยธินฝั่งจตุจักร)\n",
+                        "short_name": "แยกลาดพร้าว ฝั่งจตุจักร\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/17",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "18",
+                        "name": "แยกพระราม 9 - ประดิษฐ์มนูธรรม (หน้าวัดพระราม 9 กาญจนาภิเษก) ช่องทางหลัก+ช่องทางคู่ขนาน ขาเข้า\n",
+                        "short_name": "แยกพระราม 9 (วัดพระราม9) ขาเข้า\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/18",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "19",
+                        "name": "แยกพระราม 9 - ประดิษฐ์มนูธรรม (หน้าวัดพระราม 9 กาญจนาภิเษก) ช่องทางหลัก+ช่องทางคู่ขนาน ขาออก\n",
+                        "short_name": "แยกพระราม 9 (วัดพระราม9) ขาออก\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/19",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "20",
+                        "name": "ถนนสุขสวัสดิ์ บริเวณหน้าวัดสารอด\n",
+                        "short_name": "ถ.สุขสวัสดิ์ วัดสารอด\n",
+                        "is_active": false,
+                        "path": "/traffic/belated/20",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "21",
+                        "name": "ถนนสุขสวัสดิ์ (บริเวณปากซอยสุขสวัสดิ์ 8)\n",
+                        "short_name": "ถ.สุขสวัสดิ์ ซ. 8",
+                        "is_active": false,
+                        "path": "/traffic/belated/21",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "22",
+                        "name": "ถนนพระรามที่ 2 ซอย 3 ช่องทางหลัก+ช่องทางคู่ขนาน ขาเข้า\n",
+                        "short_name": "ถ.พระรามที่2 ซ.3 ขาเข้า\n",
+                        "is_active": false,
+                        "path": "/traffic/belated/22",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "23",
+                        "name": "ถนนพระรามที่ 2 ซอย 3 ช่องทางหลัก+ช่องทางคู่ขนาน ขาออก\n",
+                        "short_name": "ถ.พระรามที่2 ซ.3 ขาออก\n",
+                        "is_active": false,
+                        "path": "/traffic/belated/23",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "24",
+                        "name": "ถนนประเสริฐมนูกิจ (โรงเรียนสตรีวิทยา 2)\n",
+                        "short_name": "ถ.ประเสริฐมนูกิจ รร.สตรีวิทยา2\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/24",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "25",
+                        "name": "หน้าวัดดอนเมือง (ดอนเมือง อัมรี ถนนวิภาวดีรังสิต)\n",
+                        "short_name": "หน้าวัดดอนเมือง ",
+                        "is_active": false,
+                        "path": "/traffic/belated/25",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "26",
+                        "name": "เชิงสะพานสมเด็จพระปิ่นเกล้า ฝั่งธนบุรี ขาเข้า\n",
+                        "short_name": "เชิงสะพานพระปิ่นเกล้า ขาเข้า\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/26",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    },
+                    {
+                        "id": "27",
+                        "name": "เชิงสะพานสมเด็จพระปิ่นเกล้า ฝั่งธนบุรี ขาออก",
+                        "short_name": "เชิงสะพานพระปิ่นเกล้า ขาออก\n",
+                        "is_active": true,
+                        "path": "/traffic/belated/27",
+                        "is_checkpoint": true,
+                        "child_obj": []
+                    }
+                ],
+                "is_checkpoint": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "รายงานสถานะอุปกรณ์",
+        "path": "/device-status",
+        "child_obj": [
+            {
+                "id": "1",
+                "name": "ถนนอ่อนนุช (ซอยสุขุมวิท 77) บริเวณปากซอยอ่อนนุช 3\n",
+                "short_name": "ถ.อ่อนนุช สุขุมวิท77\n",
+                "is_active": true,
+                "path": "/device-status/1",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "2",
+                "name": "ถนนอ่อนนุช บริเวณแยกอ่อนนุช\n",
+                "short_name": "ถ.อ่อนนุช แยกอ่อนนุช\n",
+                "is_active": true,
+                "path": "/device-status/2",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "3",
+                "name": "ถนนอ่อนนุช (ซอยสุขุมวิท 48) บริเวณหน้าโรงแรมไอบิส\n",
+                "short_name": "ถ.อ่อนนุช สุขุมวิท48\n",
+                "is_active": true,
+                "path": "/device-status/3",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "4",
+                "name": "แยกราชประสงค์ เซ็นทรัลเวิลด์\n",
+                "short_name": "แยกราชประสงค์ CTW\n",
+                "is_active": true,
+                "path": "/device-status/4",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "5",
+                "name": "แยกราชประสงค์ ราชดำริ\n",
+                "short_name": "แยกราชประสงค์ ราชดำริ\n",
+                "is_active": true,
+                "path": "/device-status/5",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "6",
+                "name": "แยกราชประสงค์ หน้าอัมรินทร์\n",
+                "short_name": "แยกราชประสงค์ อัมรินทร์\n",
+                "is_active": true,
+                "path": "/device-status/6",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "7",
+                "name": "แยกราชประสงค์ บริเวณหน้าสำนักงานตำรวจแห่งชาติ\n",
+                "short_name": "แยกราชประสงค์ สตช.\n",
+                "is_active": true,
+                "path": "/device-status/7",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "8",
+                "name": "ถนนสาทร ตัด ถนนเจริญกรุง ใต้สะพานสมเด็จพระเจ้าตากสิน\n",
+                "short_name": "ถ.สาทร ตัด ถ.เจริญกรุง\n",
+                "is_active": true,
+                "path": "/device-status/8",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "9",
+                "name": "ถนนพระรามที่ 4 ตัดถนนสุขุมวิท (ปากซอยสุขุมวิท พลัส 1)\n",
+                "short_name": "ถ.สุขุมวิท ซ.พลัส 1\n",
+                "is_active": true,
+                "path": "/device-status/9",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "10",
+                "name": "ถนนพระรามที่ 4 บริเวณปากซอยโรงพยาบาล 2\n",
+                "short_name": "ถ.พระรามที่4 ซ.รพ.2",
+                "is_active": true,
+                "path": "/device-status/10",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "11",
+                "name": "แยกถนนพระรามที่ 3 ตัดถนนวงแหวนอุตสาหกรรม ก่อนขึ้นสะพานวงแหวน\n",
+                "short_name": "ถ.วงแหวนอุตสาหกรรม\n",
+                "is_active": true,
+                "path": "/device-status/11",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "12",
+                "name": "แยกถนนพระรามที่ 3 หัวปลาช่องนนทรี\n",
+                "short_name": "ถ.พระรามที่3-หัวปลาช่องนนทรี\n",
+                "is_active": true,
+                "path": "/device-status/12",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "13",
+                "name": "ถนนพระรามที่ 3 (บริเวณปากซอยพระรามที่ 3 ซอย 50)\n",
+                "short_name": "ถ.พระรามที่3 ซ. 50",
+                "is_active": true,
+                "path": "/device-status/13",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "14",
+                "name": "ห้าแยกลาดพร้าว (ถนนวิภาวดีรังสิต  เซ็นทารา) ช่องทางหลัก+ช่องทางคู่ขนาน\n",
+                "short_name": "แยกลาดพร้าว(เซ็นทารา) ",
+                "is_active": true,
+                "path": "/device-status/14",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "15",
+                "name": "ห้าแยกลาดพร้าว บริเวณหน้า Lotus ลาดพร้าว ถนนพหลโยธิน\n",
+                "short_name": "แยกลาดพร้าว ถ.พหลโยธิน\n",
+                "is_active": true,
+                "path": "/device-status/15",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "16",
+                "name": "ห้าแยกลาดพร้าว บริเวณตรงข้ามซอยลาดพร้าว 1 ถนนลาดพร้าว\n",
+                "short_name": "แยกลาดพร้าว ซ.ลาดพร้าว 1 \n",
+                "is_active": true,
+                "path": "/device-status/16",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "17",
+                "name": "ห้าแยกลาดพร้าว (ถนนพหลโยธินฝั่งจตุจักร)\n",
+                "short_name": "แยกลาดพร้าว ฝั่งจตุจักร\n",
+                "is_active": true,
+                "path": "/device-status/17",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "18",
+                "name": "แยกพระราม 9 - ประดิษฐ์มนูธรรม (หน้าวัดพระราม 9 กาญจนาภิเษก) ช่องทางหลัก+ช่องทางคู่ขนาน ขาเข้า\n",
+                "short_name": "แยกพระราม 9 (วัดพระราม9) ขาเข้า\n",
+                "is_active": true,
+                "path": "/device-status/18",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "19",
+                "name": "แยกพระราม 9 - ประดิษฐ์มนูธรรม (หน้าวัดพระราม 9 กาญจนาภิเษก) ช่องทางหลัก+ช่องทางคู่ขนาน ขาออก\n",
+                "short_name": "แยกพระราม 9 (วัดพระราม9) ขาออก\n",
+                "is_active": true,
+                "path": "/device-status/19",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "20",
+                "name": "ถนนสุขสวัสดิ์ บริเวณหน้าวัดสารอด\n",
+                "short_name": "ถ.สุขสวัสดิ์ วัดสารอด\n",
+                "is_active": false,
+                "path": "/device-status/20",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "21",
+                "name": "ถนนสุขสวัสดิ์ (บริเวณปากซอยสุขสวัสดิ์ 8)\n",
+                "short_name": "ถ.สุขสวัสดิ์ ซ. 8",
+                "is_active": false,
+                "path": "/device-status/21",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "22",
+                "name": "ถนนพระรามที่ 2 ซอย 3 ช่องทางหลัก+ช่องทางคู่ขนาน ขาเข้า\n",
+                "short_name": "ถ.พระรามที่2 ซ.3 ขาเข้า\n",
+                "is_active": false,
+                "path": "/device-status/22",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "23",
+                "name": "ถนนพระรามที่ 2 ซอย 3 ช่องทางหลัก+ช่องทางคู่ขนาน ขาออก\n",
+                "short_name": "ถ.พระรามที่2 ซ.3 ขาออก\n",
+                "is_active": false,
+                "path": "/device-status/23",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "24",
+                "name": "ถนนประเสริฐมนูกิจ (โรงเรียนสตรีวิทยา 2)\n",
+                "short_name": "ถ.ประเสริฐมนูกิจ รร.สตรีวิทยา2\n",
+                "is_active": true,
+                "path": "/device-status/24",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "25",
+                "name": "หน้าวัดดอนเมือง (ดอนเมือง อัมรี ถนนวิภาวดีรังสิต)\n",
+                "short_name": "หน้าวัดดอนเมือง ",
+                "is_active": false,
+                "path": "/device-status/25",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "26",
+                "name": "เชิงสะพานสมเด็จพระปิ่นเกล้า ฝั่งธนบุรี ขาเข้า\n",
+                "short_name": "เชิงสะพานพระปิ่นเกล้า ขาเข้า\n",
+                "is_active": true,
+                "path": "/device-status/26",
+                "is_checkpoint": true,
+                "child_obj": []
+            },
+            {
+                "id": "27",
+                "name": "เชิงสะพานสมเด็จพระปิ่นเกล้า ฝั่งธนบุรี ขาออก",
+                "short_name": "เชิงสะพานพระปิ่นเกล้า ขาออก\n",
+                "is_active": true,
+                "path": "/device-status/27",
+                "is_checkpoint": true,
+                "child_obj": []
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "รายงานข้อมูลจราจร(กทม.)",
+        "path": "/report-bkk",
+        "child_obj": []
+    },
+    {
+        "id": 10,
+        "name": "System Configuration",
+        "path": "/user-management",
+        "child_obj": [
+            {
+                "id": "1",
+                "name": "จัดการผู้ใช้งาน\n",
+                "is_active": true,
+                "path": "/user-management"
+            },
+            {
+                "id": "2",
+                "name": "จัดการกลุ่มผู้ใช้งาน\n",
+                "is_active": true,
+                "path": "/group-management"
+            },
+            {
+                "id": "3",
+                "name": "จัดการสิทธิการเข้าใช้งาน\n",
+                "is_active": true,
+                "path": "/permission-management"
+            },
+            {
+                "id": "4",
+                "name": "จัดการจุดติดตั้ง\n",
+                "is_active": true,
+                "path": "/installation-management"
+            },
+            {
+                "id": "5",
+                "name": "จัดการกล้อง\n",
+                "is_active": true,
+                "path": "/camera-management"
+            },
+            {
+                "id": "6",
+                "name": "จัดการถนน\n",
+                "is_active": true,
+                "path": "/road-management"
+            },
+            {
+                "id": "7",
+                "name": "จัดการถนนรอง\n",
+                "is_active": true,
+                "path": "/secondary-road-management"
+            },
+            {
+                "id": "8",
+                "name": "จัดการเลนถนน\n",
+                "is_active": true,
+                "path": "/road-lane-management"
+            },
+            {
+                "id": "9",
+                "name": "จัดการอัพเดทรายการ\n",
+                "is_active": true,
+                "path": "/update-list-management"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "CCTV เพื่อตรวจจับการฝ่าฝืนสัญญาณไฟจราจรบริเวณทางแยก",
+        "path": "http://10.151.1.227:3000/",
+        "child_obj": []
+    }
+]
