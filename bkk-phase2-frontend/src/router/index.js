@@ -431,7 +431,6 @@ const routes = [
   },
   {
     path: '/enforcement/function',
-    name: 'enforcement-function',
     beforeEnter: ifAuthenticated,
     component: () => import("../views/traffic_enforcement/enforcement_function.vue"),
     children: [
@@ -508,15 +507,14 @@ const routes = [
   },
   {
     path: '/collection/function',
-    name: 'collection-function',
     beforeEnter: ifAuthenticated,
     component: () => import("../views/traffic_collection/collection_function.vue"),
     children: [
-      // {
-      //   path: '',
-      //   name: 'collection-funcetion-menu',
-      //   component: () => import("../views/traffic_collection/collection_menu-bk.vue"),
-      // },
+      {
+        path: '',
+        name: 'collection-funcetion-menu',
+        component: () => import("../views/traffic_collection/collection_menu-bk.vue"),
+      },
       {
         path: 'search',
         name: 'collection-funcetion-search',
@@ -537,7 +535,6 @@ const routes = [
   },
   {
     path: '/management/function',
-    name: 'management-function',
     beforeEnter: ifAuthenticated,
     component: () => import("../views/traffic_management/management_function.vue"),
     children: [
@@ -566,7 +563,6 @@ const routes = [
   },
   {
     path: '/incident-accident/function',
-    name: 'incident-accident-function',
     beforeEnter: ifAuthenticated,
     component: () => import("../views/traffic_incident_accident/incident_accident_function.vue"),
     children: [

@@ -9,7 +9,7 @@ module.exports = {
       'Access-Control-Allow-Origin': '*',
     },
     client: {
-      webSocketURL: 'ws://192.168.1.111:8088/ws',
+      webSocketURL: 'ws://security65.dyndns.org:8088/ws',
     }
   }
 }
